@@ -1,0 +1,9 @@
+Test-Driven Development approach:
+    1. Write the test.
+    2. See the test fail.
+    3. Get the test to pass by writing the code.
+
+- 'shallow' function from enzyme shallowly compares the React component by just comparing the outer JSX code, not the content inside of it.
+- 'it' = (describe the test, the function that runs the test)
+- 'expect' = what the test expects to happen
+- 'toMatchSnapshot' = snapshots keep recorded history of the component. 
