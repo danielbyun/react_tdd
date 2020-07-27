@@ -7,3 +7,10 @@ Test-Driven Development approach:
 - 'it' = (describe the test, the function that runs the test)
 - 'expect' = what the test expects to happen
 - 'toMatchSnapshot' = snapshots keep recorded history of the component. 
+
+Behavior-Driven Development:
+    1. A variation of TDD that tests for user scenarios.
+    2. Given, when, then...
+    3. Given notes, when deleting, then remove a note.
+    4. BDD consists of scenarios / specifications.
+
