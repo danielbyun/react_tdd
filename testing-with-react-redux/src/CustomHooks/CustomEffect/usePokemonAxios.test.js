@@ -1,4 +1,4 @@
-import { act, renderHook } from "@testing-library/react-hooks";
+import { renderHook } from "@testing-library/react-hooks";
 import { configure } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 import MockAdapter from "axios-mock-adapter";
@@ -11,14 +11,14 @@ configure({ adapter: new Adapter() });
 
 // jest.mock("axios");
 
-const getControlledPromise = () => {
-  let deferred;
+// const getControlledPromise = () => {
+//   let deferred;
 
-  const promise = new Promise((resolve, reject) => {
-    deferred = { resolve, reject };
-  });
-  return { deferred, promise };
-};
+//   const promise = new Promise((resolve, reject) => {
+//     deferred = { resolve, reject };
+//   });
+//   return { deferred, promise };
+// };
 
 describe("usePokemonAxios", () => {
   describe("testing functionalities", () => {

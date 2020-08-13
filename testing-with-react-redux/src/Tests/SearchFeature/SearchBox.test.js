@@ -29,6 +29,7 @@ describe("<SearchBox />", () => {
     // if test input is rendered
     expect(wrapper.find("input").at(1)).toBeTruthy();
   });
+
   describe("input value", () => {
     it("updates on change", () => {
       const searchInput = wrapper.find("input").first();
@@ -37,6 +38,7 @@ describe("<SearchBox />", () => {
       expect(searchInput.instance().value).toBe("test");
     });
   });
+
   describe("search button", () => {
     describe("with empty query", () => {
       it("does not trigger requestSearch function", () => {

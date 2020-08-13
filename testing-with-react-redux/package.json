@@ -1,7 +1,6 @@
 {
   "name": "testing-with-react-redux",
   "jest": {
-    "verbose": true,
     "transformIgnorePatterns": [
       "/node_modules"
     ]
